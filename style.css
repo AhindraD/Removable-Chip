@@ -40,3 +40,36 @@ body {
     padding: 7px 15px;
     border-radius: 5px;
 }
+
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.float {
+    min-width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.495);
+}
+
+.float img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.float button {
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.281);
+}
