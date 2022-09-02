@@ -4,12 +4,13 @@ targetInput = document.querySelector(".input-name")
 function addPeople() {
     let name = targetInput.value;
     targetInput.value = "";
+    if (name === "") { return }
     let newElem = document.createElement('div');
     newElem.setAttribute('class', 'float');
 
     //IMAGE
-    let newAvatar=document.createElement("img");
-    newAvatar.src ="./images/avatar.png";
+    let newAvatar = document.createElement("img");
+    newAvatar.src = "./images/avatar.png";
 
     //NAME
     let newName = document.createElement('p');
